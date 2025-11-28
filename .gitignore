@@ -1,2 +1,8 @@
 /.vscode.env
 .env
+# hotfix backups
+product.js.container.bak
+tmp_product.js
+server/controllers/product.js.bak*
+server/controllers/product.js.host.bak
+server/controllers/product.js.save
