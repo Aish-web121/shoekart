@@ -20,4 +20,5 @@ router.route("/review").put(verifyToken, updateReview);
 router.route("/options").get(getOptions);
 router.route("/:slug").get(getProduct);
 
+router.route("/").get(getProducts);
 module.exports = router;
