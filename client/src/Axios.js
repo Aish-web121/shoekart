@@ -2,9 +2,9 @@
 // import axios from "axios";
 
 // const BACKEND_URL =
-//   (import.meta.env.VITE_BACKEND_URL || "http://localhost:5000").replace(/\/+$/, "");
+//   (import.meta.env.VITE_BACKEND_URL || "http://3.220.116.108:5000").replace(/\/+$/, "");
 
-// const API_PREFIX = "/api/v1";
+// const API_PREFIX = "http://3.220.116.108:5000/api/v1";
 
 // const Axios = axios.create({
 //   baseURL: `${BACKEND_URL}${API_PREFIX}/`, // ensure trailing slash
@@ -29,10 +29,10 @@
 import axios from "axios";
 
 const BACKEND_URL =
-  (import.meta.env.VITE_BACKEND_URL || "http://localhost:5000").replace(/\/+$/, "");
+  (import.meta.env.VITE_BACKEND_URL || "http://3.220.116.108:5000").replace(/\/+$/, "");
 
-// set to empty so root routes like /register resolve to http://localhost:5000/register
-const API_PREFIX = "/api/v1"; // change from "/api/v1" to ""
+// set to empty so root routes like /register resolve to http://3.220.116.108:5000/register
+const API_PREFIX = "http://3.220.116.108:5000/api/v1"; // change from "/api/v1" to ""
 
 const Axios = axios.create({
   baseURL: `${BACKEND_URL}${API_PREFIX}/`,
